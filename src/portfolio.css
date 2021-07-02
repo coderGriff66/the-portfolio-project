@@ -9,3 +9,8 @@ h1 {
 p {
   font-family: 'Poppins', sans-serif;
 }
+
+i {
+  color: rgb(0, 110, 255);
+  padding-left: 10px;
+}
