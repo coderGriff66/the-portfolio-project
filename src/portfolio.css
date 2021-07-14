@@ -16,8 +16,17 @@ p {
   font-size: 18px;
   font-weight: normal;
 }
-.about-img {
 
+img {
+  border-radius: 8px;
+}
+
+.about-content p {
+ font-size: 20px;
+}
+
+.about {
+  margin-top: 120px;
 }
 
 .hero h2 {
@@ -54,6 +63,18 @@ p {
   padding: 5px 20px;
 }
 
+.btn-about {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  font-size: 18px;
+  color: white;
+  padding: 15px 5px;
+  text-decoration: none;
+}
+
 .btn-launch {
   border-radius: 6px;
   background-color: var(--primary-color);
@@ -74,6 +95,12 @@ p {
   padding: 0 25px;
 }
 
+.about h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 66px;
+  color: var(--primary-color);
+}
+
 @media (max-width: 760px) {
   .hero h1 {
     font-size: 48px;
@@ -90,12 +117,16 @@ p {
   h3 {
     font-size: 24px;
   }
-  p {
-    font-size: 14px;
+  .about h1 {
+    font-size: 46px;
   }
-  .section-wrapper {
-    text-align: center;
-  }
- 
+  
+.about-section {
+  text-align: center;
 }
+.section-wrapper {
+  text-align: center;
+}
+ 
+
 
