@@ -19,6 +19,7 @@ p {
 
 img {
   border-radius: 12px;
+  box-shadow: var(--box-shadow);
 }
 
 .about-content p {
@@ -129,8 +130,4 @@ img {
   text-align: center;
 }
  
-.btn-about {
-  margin: auto;
-}
-
 }
