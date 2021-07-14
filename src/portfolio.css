@@ -18,7 +18,7 @@ p {
 }
 
 img {
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .about-content p {
@@ -65,7 +65,8 @@ img {
 
 .btn-about {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex: 1;
   border-radius: 6px;
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -128,5 +129,8 @@ img {
   text-align: center;
 }
  
+.btn-about {
+  margin: auto;
+}
 
-
+}
