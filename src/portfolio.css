@@ -4,6 +4,7 @@ font-family: 'Poppins', sans-serif; */
 :root {
   --primary-color: rgb(8, 8, 167);
   --box-shadow: 4px 6px 10px 1px rgba(12, 10, 10, 0.4);
+  --secondary-color: rgb(224, 243, 228);
 }
 
 h3 {
@@ -21,9 +22,59 @@ img {
   border-radius: 12px;
   box-shadow: var(--box-shadow);
 }
+i {
+  box-shadow: var(--box-shadow);
+}
+
+footer {
+  margin: 60px;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  border-radius: 8px;
+  padding: 30px 120px;
+  box-shadow: var(--box-shadow);
+}
+.email-contact a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+.email-contact a:hover {
+  color: var(--primary-color); 
+}
+footer .social-contact a {
+  margin: 0 20px;
+  padding: 16px 24px;
+  font-size: 30px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 50%;
+  box-shadow: var(--box-shadow);
+
+}
+footer .social-contact a:hover {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
 
 .content p {
  font-size: 20px;
+}
+
+.contact p {
+  font-size: 24px;
+  
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+.contact a:hover {
+  color: var(--primary-color);
 }
 
 .content-container {
@@ -65,16 +116,24 @@ img {
 }
 
 .btn-about {
-  display: flex;
-  justify-content: center;
-  flex: 1;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  font-size: 24px;
+  color: white;
+  padding: 15px 5px;
+  text-decoration: none;
+}
+.btn-contact {
   border-radius: 6px;
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
   font-size: 18px;
   color: white;
-  padding: 15px 5px;
+  padding: 5px 20px;
+  margin-left: 250px;;
   text-decoration: none;
+
 }
 
 .btn-launch {
@@ -88,7 +147,7 @@ img {
 }
 
 .hero {
-  background: rgb(213, 213, 253);
+  background: var(--secondary-color);
   padding: 150px 25px;
   text-align: center;
 }
