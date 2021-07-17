@@ -185,6 +185,7 @@ footer .social-contact a:hover {
     font-size: 14px;
   }
   .hero {
+    text-align: center;
     padding: 75px;
   }
   h3 {
@@ -193,7 +194,6 @@ footer .social-contact a:hover {
   .title {
     font-size: 40px;
   }
-  
 .content-container {
   text-align: center;
 }
