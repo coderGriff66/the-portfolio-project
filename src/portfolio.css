@@ -95,7 +95,6 @@ footer .social-contact a:hover {
   font-family: 'Playfair Display', serif;
   font-size: 96px;
   color: var(--primary-color);
- 
 }
 
 .hero p {
@@ -104,10 +103,15 @@ footer .social-contact a:hover {
   font-weight: normal;
  }
 
-.hero i {
-  color: var(--primary-color);
-  
-  padding-left: 10px;
+ .hero-intro {
+  margin-top: 175px;
+}
+
+.world {
+ padding: 8px 12px;
+ border-radius: 50%;
+ box-shadow: var(--box-shadow);
+ color: var(--primary-color);
 }
 
 .btn-hero {
