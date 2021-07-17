@@ -156,6 +156,10 @@ footer .social-contact a:hover {
   text-align: center;
 }
 
+ .project:hover {
+   opacity: 50%;
+}
+
 .section-wrapper {
   padding: 0 25px;
 }
