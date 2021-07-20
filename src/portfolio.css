@@ -26,9 +26,7 @@ img {
   border-radius: 12px;
   box-shadow: var(--box-shadow);
 }
-i {
-  box-shadow: var(--box-shadow);
-}
+
 
 footer {
   margin: 60px;
