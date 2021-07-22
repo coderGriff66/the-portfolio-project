@@ -102,7 +102,7 @@ footer .social-contact a:hover {
   box-shadow: var(--box-shadow);
   font-size: 18px;
   color: white;
-  padding: 5px 20px;
+  padding: 15px 40px;
 }
 .btn-about {
   border-radius: 6px;
