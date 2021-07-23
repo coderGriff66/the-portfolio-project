@@ -6,7 +6,7 @@
 body {
   background: rgb(248, 246, 246);
 }
-h3 {
+h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
   font-size: 40px;
 }
@@ -50,7 +50,6 @@ footer .social-contact a:hover {
   color: var(--secondary-color);
   background: var(--primary-color);
 }
-
 .contact a{
   text-decoration: none;
   color: black;
@@ -81,6 +80,10 @@ footer .social-contact a:hover {
   font-family: 'Playfair Display', serif;
   font-size: 96px;
   color: var(--primary-color);
+}
+.subtitle h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
 }
 .hero p {
   font-family: 'Poppins', sans-serif;
@@ -180,13 +183,16 @@ footer .social-contact a:hover {
   h3 {
     font-size: 24px;
   }
+  .subtitle h1 {
+    font-size: 24px;
+  }
   .title {
-    font-size: 35px;
+    font-size: 25px;
   }
   .title2 {
     font-size: 16;
   }
-    .email-contact a{
+  .email-contact a{
     font-size: 20px;
   }
   p {
