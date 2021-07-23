@@ -7,6 +7,7 @@ body {
   background: rgb(248, 246, 246);
 }
 h3, h4, h5, h6 {
+  color: var(--primary-color);
   font-family: 'Playfair Display', serif;
   font-size: 40px;
 }
@@ -145,8 +146,11 @@ footer .social-contact a:hover {
   padding: 150px 25px;
   text-align: center;
 }
- .project:hover {
-   opacity: 50%;
+.project:hover {
+  opacity: 50%;
+}
+.project-image:hover {
+  border: 3px solid var(--primary-color);
 }
 .section-wrapper {
   padding: 0 25px;
@@ -180,7 +184,7 @@ footer .social-contact a:hover {
     text-align: center;
     padding: 75px;
   }
-  h3 {
+ h3 {
     font-size: 24px;
   }
   .subtitle h1 {
